@@ -3,11 +3,26 @@
     <nuxt-link to="/users">
       Users
     </nuxt-link>
+
+    <button @click="getProducts">
+      Products
+    </button>
   </section>
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+
+    };
+  },
+  methods: {
+    getProducts() {
+      this.$router.push('/products');
+    },
+  },
+}
 </script>
 
 <style>
