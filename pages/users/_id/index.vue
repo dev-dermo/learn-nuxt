@@ -6,7 +6,10 @@
 
 <script>
 export default {
-
+	// nuxt specific method, to validate url params
+	validate(data) {
+		return /^\d+$/.test(data.params.id);
+	},
 }
 </script>
 
