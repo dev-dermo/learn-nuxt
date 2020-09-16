@@ -1,5 +1,5 @@
 <template>
-  <section class="container">
+  <section class="">
     <nuxt-link to="/users">
       Users
     </nuxt-link>
